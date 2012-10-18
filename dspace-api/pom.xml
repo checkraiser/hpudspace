@@ -259,7 +259,7 @@
                 <!--  Dauphine -->
         <dependency>
            <!-- type>jar</type-->
-           <groupId>cas</groupId>
+           <groupId>hpu.dungth</groupId>
            <artifactId>casclient</artifactId>
            <version>2.1.1</version>
        </dependency>
