@@ -69,9 +69,9 @@
         </dependency>
         <!-- Dauphine -->
         <dependency>
-           <groupId>hpu.dungth</groupId>
-           <artifactId>casclient</artifactId>
-           <version>2.1.1</version>
+           <groupId>dungth</groupId>
+           <artifactId>mycas</artifactId>
+           <version>1.1</version>
        </dependency>
     </dependencies>
 

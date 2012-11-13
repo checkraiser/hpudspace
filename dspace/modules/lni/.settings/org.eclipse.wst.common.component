@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="lni">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/dspace-api/dspace-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/dspace-discovery-provider/dspace-discovery-provider">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="lni"/>
+        <property name="java-output-path" value="/lni/target/classes"/>
+    </wb-module>
+</project-modules>

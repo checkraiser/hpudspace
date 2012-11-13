@@ -33,6 +33,10 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+		<repository>
+<id>central</id>
+<url>file://C:\Documents and Settings\Administrator\.m2\repository\</url>
+</repository>
     </repositories>
     -->
 
@@ -157,7 +161,7 @@
 
             <id>dspace-jspui</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <modules>
                 <module>dspace-jspui</module>
@@ -171,7 +175,7 @@
         <profile>
             <id>dspace-sword</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <modules>
                 <module>dspace-sword</module>
@@ -184,7 +188,7 @@
         <profile>
             <id>dspace-swordv2</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <modules>
                 <module>dspace-swordv2</module>
@@ -197,7 +201,7 @@
         <profile>
             <id>dspace-sword-client</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <modules>
                 <module>dspace-sword-client</module>
@@ -223,7 +227,7 @@
         <profile>
             <id>dspace-lni</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <modules>
                 <module>dspace-lni</module>
