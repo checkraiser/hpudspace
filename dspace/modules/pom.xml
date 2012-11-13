@@ -94,15 +94,6 @@
             <modules>
                 <module>solr</module>
             </modules>
-        </profile>
-		<profile>
-			<id>dspace-rest</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<modules>
-				<module>rest</module>
-			</modules>
-		</profile>
+        </profile>		
     </profiles>
 </project>
